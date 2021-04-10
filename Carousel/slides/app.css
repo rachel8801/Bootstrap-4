@@ -1,0 +1,69 @@
+body {
+  font-family: poppins, sans-serif;
+}
+.carousel-item img {
+  height: 80vh;
+  min-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.carousel-caption {
+  bottom: 80px;
+}
+
+.carousel-caption h5 {
+  font-size: 40px;
+  text-transform: none;
+  letter-spacing: 2px;
+  margin-left: 25px;
+  padding-left: 30px;
+  font-weight: 900;
+}
+.carousel-caption p {
+  font-size: 18px;
+  margin: auto;
+  width: 60%;
+  line-height: 1.9;
+}
+
+.carousel-caption a {
+  text-transform: none;
+  font-size: 18px;
+  background: rgba(223, 59, 9, 0.911);
+  padding: 10px 25px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.navbar {
+  height: 60px;
+  background: #fff;
+}
+.navbar-light .navbar-brand {
+  font-size: 25px;
+  color: black;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin-left: 30px;
+}
+.navbar-nav li > a {
+  font-size: 18px;
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(10, 10, 10);
+  font-weight: 500;
+  width: 130px;
+  text-align: left;
+}
+.navbar-light .navbar-nav {
+  margin-right: 25px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(223, 59, 9, 0.911);
+}
